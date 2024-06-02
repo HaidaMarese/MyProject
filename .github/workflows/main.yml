@@ -16,8 +16,8 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{}}
-        aws-secret-access-key: ${{ ohQBbDCsRtS4NrAO/u5lE9r3m4u/D2CbmlP/xcJJ }}
+        aws-access-key-id: ${{AKIA2UC3AXYQCUUGYLVF}}
+        aws-secret-access-key: ${{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}}
         aws-region: us-east-1
 
     - name: Sync S3 bucket
